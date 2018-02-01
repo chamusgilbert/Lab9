@@ -34,13 +34,12 @@ namespace Lab9
                 {
                     Console.WriteLine("Thanks, have a nice day! You made this many circles:");
                     Console.WriteLine(allTheCicles.Count);
-
-                    break;
+                    continuey = false;
                 }
                 else
                 {
                     Console.WriteLine("I do not understand, terminating program");
-                    break;
+                    continuey = false;
                 }
             }
 
